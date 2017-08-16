@@ -1,0 +1,9 @@
+C:\CSI\Training\HelloPivotal\ServicePivotal\bin\Debug\netcoreapp1.1\ServicePivotal.deps.json
+C:\CSI\Training\HelloPivotal\ServicePivotal\bin\Debug\netcoreapp1.1\ServicePivotal.runtimeconfig.json
+C:\CSI\Training\HelloPivotal\ServicePivotal\bin\Debug\netcoreapp1.1\ServicePivotal.runtimeconfig.dev.json
+C:\CSI\Training\HelloPivotal\ServicePivotal\bin\Debug\netcoreapp1.1\ServicePivotal.dll
+C:\CSI\Training\HelloPivotal\ServicePivotal\bin\Debug\netcoreapp1.1\ServicePivotal.pdb
+C:\CSI\Training\HelloPivotal\ServicePivotal\obj\Debug\netcoreapp1.1\ServicePivotal.csprojResolveAssemblyReference.cache
+C:\CSI\Training\HelloPivotal\ServicePivotal\obj\Debug\netcoreapp1.1\ServicePivotal.AssemblyInfo.cs
+C:\CSI\Training\HelloPivotal\ServicePivotal\obj\Debug\netcoreapp1.1\ServicePivotal.dll
+C:\CSI\Training\HelloPivotal\ServicePivotal\obj\Debug\netcoreapp1.1\ServicePivotal.pdb

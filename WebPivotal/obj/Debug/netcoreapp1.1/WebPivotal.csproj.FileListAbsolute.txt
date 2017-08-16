@@ -1,0 +1,9 @@
+C:\CSI\Training\HelloPivotal\WebPivotal\bin\Debug\netcoreapp1.1\WebPivotal.deps.json
+C:\CSI\Training\HelloPivotal\WebPivotal\bin\Debug\netcoreapp1.1\WebPivotal.runtimeconfig.json
+C:\CSI\Training\HelloPivotal\WebPivotal\bin\Debug\netcoreapp1.1\WebPivotal.runtimeconfig.dev.json
+C:\CSI\Training\HelloPivotal\WebPivotal\bin\Debug\netcoreapp1.1\WebPivotal.dll
+C:\CSI\Training\HelloPivotal\WebPivotal\bin\Debug\netcoreapp1.1\WebPivotal.pdb
+C:\CSI\Training\HelloPivotal\WebPivotal\obj\Debug\netcoreapp1.1\WebPivotal.csprojResolveAssemblyReference.cache
+C:\CSI\Training\HelloPivotal\WebPivotal\obj\Debug\netcoreapp1.1\WebPivotal.AssemblyInfo.cs
+C:\CSI\Training\HelloPivotal\WebPivotal\obj\Debug\netcoreapp1.1\WebPivotal.dll
+C:\CSI\Training\HelloPivotal\WebPivotal\obj\Debug\netcoreapp1.1\WebPivotal.pdb
