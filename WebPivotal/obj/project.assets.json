@@ -1531,6 +1531,23 @@
           }
         }
       },
+      "NetEscapades.Configuration.Yaml/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
+          "System.Dynamic.Runtime": "4.0.11",
+          "System.IO.FileSystem": "4.0.1",
+          "System.Runtime.Serialization.Primitives": "4.1.1",
+          "YamlDotNet": "3.9.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/NetEscapades.Configuration.Yaml.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/NetEscapades.Configuration.Yaml.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -3678,6 +3695,15 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "YamlDotNet/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.3/YamlDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/YamlDotNet.dll": {}
+        }
       }
     }
   },
@@ -4994,6 +5020,17 @@
         "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
         "runtimes/win/lib/netcore50/_._",
         "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll"
+      ]
+    },
+    "NetEscapades.Configuration.Yaml/1.2.0": {
+      "sha512": "kVqNf2Ka3ntY4hzCt2piTLtt44dfoYzRefo1gQ0BKT4T2z+DBpfF8yYzxrLDk04U0xQPbQBmnw23qquO4TziEA==",
+      "type": "package",
+      "path": "netescapades.configuration.yaml/1.2.0",
+      "files": [
+        "lib/net451/NetEscapades.Configuration.Yaml.dll",
+        "lib/netstandard1.3/NetEscapades.Configuration.Yaml.dll",
+        "netescapades.configuration.yaml.1.2.0.nupkg.sha512",
+        "netescapades.configuration.yaml.nuspec"
       ]
     },
     "NETStandard.Library/1.6.1": {
@@ -9756,6 +9793,21 @@
         "system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "YamlDotNet/4.2.1": {
+      "sha512": "z0QLgu/ngx+yKHhqUGEmwisBzUU9z+wWaTTROUMHYKqa3swokw7adsprYhwB/+YoO+E8PXwjLmT1uOXhLFD7WQ==",
+      "type": "package",
+      "path": "yamldotnet/4.2.1",
+      "files": [
+        "lib/net35/YamlDotNet.dll",
+        "lib/net35/YamlDotNet.xml",
+        "lib/netstandard1.3/YamlDotNet.dll",
+        "lib/netstandard1.3/YamlDotNet.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/YamlDotNet.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/YamlDotNet.xml",
+        "yamldotnet.4.2.1.nupkg.sha512",
+        "yamldotnet.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -9766,7 +9818,9 @@
       "Microsoft.AspNetCore.StaticFiles >= 1.1.2",
       "Microsoft.Extensions.Logging.Debug >= 1.1.2",
       "Microsoft.NETCore.App >= 1.1.2",
-      "Microsoft.VisualStudio.Web.BrowserLink >= 1.1.2"
+      "Microsoft.VisualStudio.Web.BrowserLink >= 1.1.2",
+      "NetEscapades.Configuration.Yaml >= 1.2.0",
+      "YamlDotNet >= 4.2.1"
     ]
   },
   "packageFolders": {
@@ -9792,6 +9846,10 @@
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
+          "NetEscapades.Configuration.Yaml": {
+            "target": "Package",
+            "version": "1.2.0"
+          },
           "Microsoft.AspNetCore": {
             "target": "Package",
             "version": "1.1.2"
@@ -9808,6 +9866,10 @@
           "Microsoft.VisualStudio.Web.BrowserLink": {
             "target": "Package",
             "version": "1.1.2"
+          },
+          "YamlDotNet": {
+            "target": "Package",
+            "version": "4.2.1"
           },
           "Microsoft.AspNetCore.Mvc": {
             "target": "Package",

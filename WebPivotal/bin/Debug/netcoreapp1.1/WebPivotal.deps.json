@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "8121e8722d923a37d134fbaa99a24b664e560cab"
+    "signature": "23a771aca92a1c66fb4d56ef8ac2fe9d28262b73"
   },
   "compilationOptions": {
     "defines": [
@@ -29,7 +29,9 @@
           "Microsoft.AspNetCore.StaticFiles": "1.1.2",
           "Microsoft.Extensions.Logging.Debug": "1.1.2",
           "Microsoft.NETCore.App": "1.1.2",
-          "Microsoft.VisualStudio.Web.BrowserLink": "1.1.2"
+          "Microsoft.VisualStudio.Web.BrowserLink": "1.1.2",
+          "NetEscapades.Configuration.Yaml": "1.2.0",
+          "YamlDotNet": "4.2.1"
         },
         "runtime": {
           "WebPivotal.dll": {}
@@ -1151,6 +1153,22 @@
           "lib/netstandard1.5/Microsoft.VisualStudio.Web.BrowserLink.dll": {}
         }
       },
+      "netescapades.configuration.yaml/1.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.1.2",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.1.2",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0",
+          "YamlDotNet": "4.2.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/NetEscapades.Configuration.Yaml.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/NetEscapades.Configuration.Yaml.dll": {}
+        }
+      },
       "newtonsoft.json/9.0.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
@@ -1328,6 +1346,14 @@
         },
         "compile": {
           "lib/netstandard1.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "yamldotnet/4.2.1": {
+        "runtime": {
+          "lib/netstandard1.3/YamlDotNet.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/YamlDotNet.dll": {}
         }
       },
       "libuv/1.9.1": {
@@ -3533,6 +3559,13 @@
       "path": "microsoft.visualstudio.web.browserlink/1.1.2",
       "hashPath": "microsoft.visualstudio.web.browserlink.1.1.2.nupkg.sha512"
     },
+    "netescapades.configuration.yaml/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kVqNf2Ka3ntY4hzCt2piTLtt44dfoYzRefo1gQ0BKT4T2z+DBpfF8yYzxrLDk04U0xQPbQBmnw23qquO4TziEA==",
+      "path": "netescapades.configuration.yaml/1.2.0",
+      "hashPath": "netescapades.configuration.yaml.1.2.0.nupkg.sha512"
+    },
     "newtonsoft.json/9.0.1": {
       "type": "package",
       "serviceable": true,
@@ -3609,6 +3642,13 @@
       "sha512": "sha512-pPjLeSA+JymT3VE924WOciC8GcctTlNcCoBZ1GBaMI07gcQ8h8018NjdZSv1GcO/2EnhNYwhz2G218dCzVhVGA==",
       "path": "system.text.encodings.web/4.3.1",
       "hashPath": "system.text.encodings.web.4.3.1.nupkg.sha512"
+    },
+    "yamldotnet/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z0QLgu/ngx+yKHhqUGEmwisBzUU9z+wWaTTROUMHYKqa3swokw7adsprYhwB/+YoO+E8PXwjLmT1uOXhLFD7WQ==",
+      "path": "yamldotnet/4.2.1",
+      "hashPath": "yamldotnet.4.2.1.nupkg.sha512"
     },
     "libuv/1.9.1": {
       "type": "package",
