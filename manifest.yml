@@ -1,0 +1,8 @@
+---
+- name: csi-config
+memory: 512M
+instances: 1
+env: 
+    SPRING_PROFILES_ACTIVE: cloud
+ services: 
+ - config-server
