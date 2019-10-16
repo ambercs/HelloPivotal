@@ -6,5 +6,10 @@ pipeline {
         powershell 'get-service'
       }
     }
+    stage('Batch') {
+      steps {
+        sh 'C:\\Users\\administrator\\Desktop\\script.bat'
+      }
+    }
   }
 }
