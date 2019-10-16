@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        powershell 'script.ps1'
+        powershell 'get-service'
       }
     }
   }
