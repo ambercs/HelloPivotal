@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Batch') {
       steps {
-        powershell 'C:\\Users\\administrator\\Desktop\\script.bat'
+        powershell 'cmd.exe /c \'C:\\Users\\administrator\\Desktop\\script.bat\''
       }
     }
   }
